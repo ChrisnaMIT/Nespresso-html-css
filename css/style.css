@@ -1,0 +1,431 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.titre{
+    font-size:1.5rem;
+}
+.app{
+    padding-top: 45px;
+
+}
+.bouton{
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+.recherche{
+    width: 120px;
+    height: 40px;
+}
+.fa-user{
+    width:200px ;
+    height: 40px;
+}
+.fa-gift{
+    height: 40px;
+    width: 50px;
+}
+.fa-cart-shopping{
+    height: 40px;
+    width: 150px;
+}
+
+.navbarCafe{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 20px;
+
+}
+
+.navbarCafe{
+    text-align: center;
+    cursor: pointer;
+}
+.boite{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(90px, 1fr));
+    gap: 10px;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.partThree{
+    height: 620px;
+   background-image: url("../images/dejeunerNespresso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-transform: initial;
+
+}
+
+.textThree{
+    padding-top: 100px;
+    font-size: 17px;
+}
+
+.boutonThree{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.partFour{
+    height: 900px;
+    background-color:#f2eee7;
+}
+
+.boiteTitreFour{
+    display: flex;
+    justify-content: center;
+
+}
+.titreFour{
+    font-size: 25px;
+    color: #634530;
+    display: flex;
+    justify-content:center;
+    padding-top: 60px;
+}
+
+.boiteBoutonFour{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.boutonFour{
+    background-color:#f2eee7;
+    border: 1px solid #8a705e;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 4px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.boutonFour:hover{
+    background-color:#634530;
+    color: white;
+}
+
+.grilleFour{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 80px;
+}
+
+.boiteCardOne{
+    background-image: url('../images/photoFour.png');
+    border-radius: 20px;
+    width: 600px;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.cardOne{
+    text-align: center;
+    padding-top: 390px;
+}
+
+
+.boiteCardTwo{
+    display: grid;
+    grid-template-columns:320px 320px;
+    grid-template-rows: 555px 560px;
+    gap:20px;
+    max-width: 1000px;
+    text-align: center;
+
+
+}
+.cardTwo{
+    background-color: white;
+    border-radius: 20px;
+    border:1px solid white;
+    padding-top: 30px;
+}
+
+.titreCardTwo{
+    color: #f2eee7;
+    font-weight: bolder;
+}
+
+.textCardTwo{
+    line-height: 1px;
+    font-size: 20px;
+}
+
+.photoCardTwo{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.boutonCardTwo {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 25px;
+}
+
+.partFive {
+background-color: white;
+    display: flex;
+    height: 700px;
+}
+
+.boiteCardFive {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    max-width: 700px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+   padding-left: 80px;
+    padding-top: 80px;
+    font-family: sans-serif;
+}
+
+.carteUne {
+    background-image: url('../images/carteUne.png');
+    border-radius: 20px;
+    width: 450px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carteDeux{
+    background-image: url('../images/carteDeux.png');
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.carteTrois{
+    background-image: url('../images/carteTrois.png');
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.partSix{
+    background-color: white;
+    display: flex;
+    height: 300px;
+
+
+}
+
+.boiteCarteSix{
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    color: black;
+    font-family: sans-serif;
+    line-height: 1px;
+    padding-left: 77px;
+    padding-top: 70px;
+    padding-right: 35px;
+}
+.carteBoutique{
+    background-color: #d5d5d5;
+    border-radius: 20px;
+    width: 280px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 75%;
+}
+
+.imageBoutique{
+    margin-right: 20px;
+}
+.textBoutique h4{
+    font-size: 15px;
+}
+.textBoutique p {
+    line-height: 20px;
+
+}
+.textBoutique a{
+    text-decoration: underline;
+}
+
+.partSeven{
+    display: flex;
+    background-color: #dcdccc;
+    height: 200px;
+}
+
+.titreSeven{
+    text-align:center ;
+    padding-left:430px;
+    padding-top: 60px;
+    font-family:sans-serif;
+    color: #686f4d;
+}
+
+.partEight{
+    display: flex;
+    background-color: #dcdccc;
+    height: 550px;
+}
+.boiteCarteEight {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    color: black;
+    font-family: sans-serif;
+    line-height: 1px;
+    padding-left: 77px;
+    padding-top: 70px;
+    padding-right: 35px;
+}
+.carteEight{
+    background-image: url("../images/dejeunerNespresso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 280px;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.partNine{
+    display: flex;
+    background-color: #f5f5f5;
+    height: 410px;
+}
+
+.boiteCarteNine {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    color: black;
+    font-family: sans-serif;
+    line-height: 1px;
+    padding-left: 77px;
+    padding-top: 70px;
+    padding-right: 35px;
+}
+.carteNine{
+    border-radius: 20px;
+    width: 280px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+    text-align: center;
+   flex-direction: column;
+}
+.imageCarteNine{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.titreCarteNine{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.texteCarteNine{
+    font-size: 13px;
+    line-height:1px;
+}
+
+.questionNine{
+    font-size: 13px;
+    color: #aa896a;
+}
+
+.partTen{
+    display: flex;
+    background-color: white;
+    height: 80px;
+   justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 25%;
+    color: #6f6f70;
+}
+
+.boiteTen{
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fill,minmax(60px,1fr));
+    padding-left: 15px;
+}
+.cardTen{
+    border-radius: 10px;
+    width: 40px;
+    height: 25px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.partEleven{
+    display: flex;
+    background-color: white;
+    height: 730px;
+}
+
+.boiteEleven{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    width: 100%;
+    padding-left: 77px;
+    padding-top: 70px;
+    padding-right: 35px;
+
+}
+
+.cardEleven{
+    border-radius: 20px;
+    width: 280px;
+    height: 370px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: #454547;
+    text-align: left;
+}
+
+.cardEleven :hover{
+    color: #876c43;
+}
